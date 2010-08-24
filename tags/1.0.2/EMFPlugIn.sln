@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMFPlugIn", "EMFPlugIn\EMFPlugIn.csproj", "{2CED15A6-214B-4B10-ACA9-F3089EFD348A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EMFPluginSetup", "EMFPluginSetup\EMFPluginSetup.vdproj", "{5D91EAB0-A86D-47D5-AE01-2C72AF7D84ED}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EMFPluginSetupx64", "EMFPluginSetup\EMFPluginSetupx64.vdproj", "{B104F689-5552-481A-95A1-2A1DE40808AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CED15A6-214B-4B10-ACA9-F3089EFD348A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CED15A6-214B-4B10-ACA9-F3089EFD348A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CED15A6-214B-4B10-ACA9-F3089EFD348A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CED15A6-214B-4B10-ACA9-F3089EFD348A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D91EAB0-A86D-47D5-AE01-2C72AF7D84ED}.Debug|Any CPU.ActiveCfg = Debug
+		{5D91EAB0-A86D-47D5-AE01-2C72AF7D84ED}.Debug|Any CPU.Build.0 = Debug
+		{5D91EAB0-A86D-47D5-AE01-2C72AF7D84ED}.Release|Any CPU.ActiveCfg = Release
+		{5D91EAB0-A86D-47D5-AE01-2C72AF7D84ED}.Release|Any CPU.Build.0 = Release
+		{B104F689-5552-481A-95A1-2A1DE40808AD}.Debug|Any CPU.ActiveCfg = Debug
+		{B104F689-5552-481A-95A1-2A1DE40808AD}.Debug|Any CPU.Build.0 = Debug
+		{B104F689-5552-481A-95A1-2A1DE40808AD}.Release|Any CPU.ActiveCfg = Release
+		{B104F689-5552-481A-95A1-2A1DE40808AD}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
