@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:EMFPluginSetup"
+"ProjectName" = "8:EMFPluginSetupx64"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -50,19 +50,6 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
-                    }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
-                    {
-                    "Name" = "8:Windows Installer 3.1"
-                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
-                    }
-                }
             }
         }
         "Release"
@@ -122,7 +109,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:3.5.30729 "
+                "FrameworkVersion" = "8:3.5.30729"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -173,13 +160,6 @@
         }
         "LaunchCondition"
         {
-            "{836E08B8-0285-4809-BA42-01DB6754A45D}:_F097B01DB06347F5AA4B2C217DB2345E"
-            {
-            "Name" = "8:x86"
-            "Condition" = "8:NOT Msix64"
-            "Message" = "8:Please download and run the 64-bit version of the installer. Would you like to go to the download page now?"
-            "InstallUrl" = "8:http://code.google.com/p/emfplugin/"
-            }
         }
         "Locator"
         {
@@ -194,7 +174,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EMF Plug-In"
         "ProductCode" = "8:{00B51102-DA50-47B1-A415-359F6D7BD978}"
-        "PackageCode" = "8:{838C89A4-7C3E-4542-9C65-B3D631C37757}"
+        "PackageCode" = "8:{E00EF960-1F3D-4CCB-A485-CA956EA0F7E9}"
         "UpgradeCode" = "8:{EBEB07AE-B448-4842-ADD6-35AC27AC54B5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

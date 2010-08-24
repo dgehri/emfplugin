@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:EMFPluginSetup"
+"ProjectName" = "8:EMFPluginSetupx64"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -33,7 +33,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\EMFPluginSetup.msi"
+        "OutputFilename" = "8:Debug64\\EMFPluginSetup(x64).msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -70,7 +70,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\EMFPluginSetup.msi"
+        "OutputFilename" = "8:Release64\\EMFPluginSetup(x64).msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -138,7 +138,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_294A08C69B114593AE5E776E0B25A44B"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -173,13 +173,6 @@
         }
         "LaunchCondition"
         {
-            "{836E08B8-0285-4809-BA42-01DB6754A45D}:_F097B01DB06347F5AA4B2C217DB2345E"
-            {
-            "Name" = "8:x86"
-            "Condition" = "8:NOT Msix64"
-            "Message" = "8:Please download and run the 64-bit version of the installer. Would you like to go to the download page now?"
-            "InstallUrl" = "8:http://code.google.com/p/emfplugin/"
-            }
         }
         "Locator"
         {
@@ -193,9 +186,9 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EMF Plug-In"
-        "ProductCode" = "8:{00B51102-DA50-47B1-A415-359F6D7BD978}"
-        "PackageCode" = "8:{838C89A4-7C3E-4542-9C65-B3D631C37757}"
-        "UpgradeCode" = "8:{EBEB07AE-B448-4842-ADD6-35AC27AC54B5}"
+        "ProductCode" = "8:{EB59AEBA-DF0C-4532-9C09-31E7B660EC13}"
+        "PackageCode" = "8:{E00EF960-1F3D-4CCB-A485-CA956EA0F7E9}"
+        "UpgradeCode" = "8:{34A88FB4-9200-4453-9A5C-BB517DCC6586}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
@@ -215,7 +208,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
