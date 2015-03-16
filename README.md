@@ -15,6 +15,6 @@ Please support this project by donating. Thank you!
 ![Screenshot](https://raw.githubusercontent.com/dgehri/emfplugin/master/EMF-Screenshot.PNG)
 
 ## Installation ##
-  1. Download the current release and extract the content of the ZIP file to a folder of your choice.
+  1. [Download the current release](https://github.com/dgehri/emfplugin/releases) and extract the content of the ZIP file to a folder of your choice.
   1. Double-click on "setup.exe" to install the plug-in
   1. **Reboot your computer** or **log off and log on**.
