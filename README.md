@@ -12,7 +12,7 @@ Please support this project by donating. Thank you!
 
 ## Screenshot ##
 
-http://emfplugin.googlecode.com/svn/trunk/EMFPluginSetup/EMF-Screenshot.PNG
+![Screenshot](https://raw.githubusercontent.com/dgehri/emfplugin/master/EMF-Screenshot.PNG)
 
 ## Installation ##
   1. Download the current release and extract the content of the ZIP file to a folder of your choice.
